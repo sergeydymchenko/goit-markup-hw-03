@@ -165,14 +165,15 @@ ul {
   justify-content: center;
 }
 .section-requirements {
-  width: 1600;
+  width: 1598;
   padding-top: 94px;
+
   display: flex;
   justify-content: center;
 }
 
 .list-of-requirements {
-  width: 1200px;
+  width: 1170px;
   display: flex;
   align-items: center;
 
@@ -184,6 +185,9 @@ ul {
   margin: 0 auto;
 }
 .base-tegs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -194,6 +198,10 @@ ul {
   padding-bottom: 15px;
 
   color: #212121;
+}
+.list-of-requirements-item {
+  padding-left: 15px;
+  padding-right: 15px;
 }
 .text-idea {
   font-family: 'Roboto', sans-serif;

@@ -27,6 +27,7 @@ ul {
   width: 1200px;
   display: flex;
   align-items: center;
+  justify-content: center;
 
   margin: auto;
 }
@@ -163,7 +164,8 @@ ul {
 }
 .section-requirements {
   padding-top: 94px;
-  margin-left: 215px;
+  display: flex;
+  justify-content: center;
 }
 
 .list-of-requirements {

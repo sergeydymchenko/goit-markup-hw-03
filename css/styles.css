@@ -40,9 +40,11 @@ ul {
   align-items: center;
   justify-content: flex-start;
 }
-.container {
+.header .container {
   display: flex;
   align-items: center;
+}
+.container {
   width: 1200px;
   padding: 0 15px;
   margin: 0 auto;
@@ -209,10 +211,9 @@ ul {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-
-  width: 1200px;
+  width: 1600px;
   height: 480px;
-  padding: 94px 200px;
+  padding-top: 94px;
 }
 
 .work {
@@ -225,9 +226,10 @@ ul {
   letter-spacing: 0.03em;
 
   padding-bottom: 50px;
-  padding-left: 397px;
+
   display: flex;
   justify-content: center;
+
   align-items: center;
 
   color: #212121;
@@ -239,16 +241,17 @@ ul {
   display: flex;
   align-items: center;
 }
+
 .img-set {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 1200px;
-  flex-direction: row;
-  margin: 0 auto;
 }
 
 .img-work {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   padding: 0 15px;
 }
 .over-comand {
@@ -440,5 +443,5 @@ p {
   margin: 0;
 }
 img {
-  display: block;
+  display: flex;
 }

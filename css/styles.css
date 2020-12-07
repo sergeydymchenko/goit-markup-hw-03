@@ -30,6 +30,7 @@ ul {
 
   margin: auto;
 }
+
 .header {
   padding-top: 25px;
   padding-bottom: 25px;
@@ -110,7 +111,6 @@ ul {
   letter-spacing: 0.03em;
 }
 .hero-section {
-  width: 1600px;
   height: 600px;
 
   padding: 200px 452px;
@@ -164,7 +164,9 @@ ul {
   justify-content: center;
 }
 .section-requirements {
+  height: 289px;
   padding-top: 94px;
+  padding-bottom: 94px;
 
   display: flex;
   justify-content: center;
@@ -220,7 +222,7 @@ ul {
   flex-direction: column;
 
   height: 480px;
-  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .work {
@@ -250,7 +252,6 @@ ul {
 }
 
 .img-set {
-  margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -273,6 +274,7 @@ ul {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-bottom: 50px;
 
   color: #212121;
 }
@@ -281,12 +283,11 @@ ul {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  padding-top: 200px;
-  padding-bottom: 200px;
-  margin: 0 auto;
+  padding-top: 94px;
+  padding-bottom: 94px;
 
   background: rgba(245, 244, 250, 1);
-  width: 1600px;
+
   height: 648px;
   left: 0px;
   top: 1449px;
@@ -334,12 +335,12 @@ ul {
   height: 252px;
   left: 0px;
   top: 2097px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 
   background: #2f303a;
 }
-.footer .logo {
-  padding-top: 60px;
-}
+
 .logo-studio-footer {
   color: white;
 }
@@ -347,10 +348,10 @@ ul {
   padding-top: 20px;
 }
 .footer .address-link {
-  padding-top: 20px;
+  padding-top: 9px;
 }
 .footer .header-tell {
-  padding-top: 20px;
+  padding-top: 9px;
 }
 .footer-item {
   padding-left: 215px;
@@ -369,6 +370,9 @@ ul {
   color: #ffffff;
 }
 /*===============end-studio======*/
+.portfolio .header {
+  border: 1px solid rgba(236, 236, 236, 1);
+}
 .main-portfolio {
   display: flex;
   flex-direction: column;
@@ -396,8 +400,15 @@ ul {
 .main-portfolio .container {
   display: flex;
 }
+.nav-portfolio-item {
+  margin-right: 8px;
+}
+.nav-portfolio-item:last-of-type {
+  margin-right: none;
+}
 .buttons {
   display: flex;
+  padding-bottom: 37px;
 }
 .nav-portfolio-item:hover,
 .nav-portfolio-item:focus {

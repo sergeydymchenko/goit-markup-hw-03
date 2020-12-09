@@ -119,8 +119,8 @@ ul {
   letter-spacing: 0.03em;
 }
 .hero-section {
- padding-top: 200px;
- padding-bottom: 200px;
+  padding-top: 200px;
+  padding-bottom: 200px;
   background: #2f303a;
 }
 .main-haiding {
@@ -170,11 +170,11 @@ ul {
   flex-wrap: wrap;
   flex-direction: column;
   justify-content: center;
-   width: 696px;
+  width: 696px;
 
   margin: 0 auto;
 }
-}
+
 .section-requirements {
   height: 289px;
   padding-top: 94px;

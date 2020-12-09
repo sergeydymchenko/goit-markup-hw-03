@@ -381,13 +381,14 @@ ul {
   border: 1px solid rgba(236, 236, 236, 1);
 }
 .main-portfolio {
+  padding-bottom: 64px;
+  padding-top: 94px;
+}
+.main-portfolio .container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 1200px;
-  padding-bottom: 64px;
-  margin: 0 auto;
 }
 .nav-portfolio-item {
   display: flex;
@@ -416,7 +417,6 @@ ul {
 .buttons {
   display: flex;
   padding-bottom: 50px;
-  padding-top: 94px;
 }
 .nav-portfolio-item:hover,
 .nav-portfolio-item:focus {
